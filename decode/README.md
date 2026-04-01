@@ -24,7 +24,9 @@ This repository contains the **DECODE Builders Lab** for building secure fintech
 Here’s what I expect you to do:
 
 Choose a buddy: to do the challenges with (you’re faster together and learn more)
+
 Relax and learn: Don’t do every challenge. Pick what looks interesting. If you start one and can’t finish it, don’t feel bad — if you like it, you can continue at home. If you finish one, that’s amazing!
+
 Don’t be stuck: For in-person workshops - if you struggle for more than 20 seconds, raise your hand, and we’ll come help you.
 
 The intended flow is simple:
