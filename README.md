@@ -1,52 +1,376 @@
 
-<h1> LabDotGDE™ Workshops and Notebooks</h1>
+# Safaricom M-Pesa MCP Server & Google ADK Agent
 
-Workshops around Google AI specifically on Building AI Agents with Google's Agent Development Kit (ADK) and Google Live APIs
+A comprehensive implementation of the DECODE Builders Labs featuring a complete M-Pesa payment integration system with MCP (Model Context Protocol) server and Google ADK (AI Development Kit) agent.
 
-+ A collection of ready-to-run Jupyter notebooks for learning and experimenting with Deep Learning.
+## 📋 Project Overview
 
+This project demonstrates a full-stack AI-powered payment processing system that integrates:
 
-[![-----------------------------------------------------](https://user-images.githubusercontent.com/10940214/155750931-fc094349-b6ec-4e1f-9f9a-113e67941119.jpg)]()
+- **Safaricom M-Pesa Daraja API** for mobile money payments
+- **Model Context Protocol (MCP)** for standardized AI tool integration
+- **Google ADK** for building intelligent agents with sequential workflows
+- **Cloud Run** for serverless deployment
+- **Docker** for containerization
 
-## 2025 - Labs and Notebooks
-Check out the latest notebooks that show how to optimize and deploy popular models on Intel CPU and GPU. 
+## 🏗️ Architecture
 
-| **Notebook / Workshop** | **Description** | **Complementary Materials** | **Quiz / Exercise / Labs** |
-| :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-| Unlocking the power of Generative AI with Gemini <br>Campus Connect - CUEA<br>[![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1lnjeo-pk4XHp1ZBwm7DTV2mXnt_lBN23)| The hands-on session was based on Generative AI. Beginning with an introduction to Deep Learning and the foundational principles of neural networks using Keras and TensorFlow, participants gained insight into the building blocks of modern AI. I then transitioned into Large Language Models (LLMs), neural networks trained on massive datasets, unleashing capabilities for content generation. Developers were then introduced to the landscape of available foundational models, with a special focus on Gemini. Through live demonstrations, developers were guided through the practical application of Gemini, both within Google AI Studio and through APIs in VS Code and Colab. | <img src = "https://user-images.githubusercontent.com/29454499/212105105-f61c8aab-c1ff-40af-a33f-d0ed1fccc72e.png" width=300>  | [Blog - How to get YOLOv8 Over 1000 fps with Intel GPUs?](https://medium.com/openvino-toolkit/how-to-get-yolov8-over-1000-fps-with-intel-gpus-9b0eeee879) |
-| Building Agentic Solutions with Gemini and ReACT <br>Kisumu<br>[![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1LkY6OG9H7R2NvsgzdCYVJ7QKIfStYgSr)| This live-coding session will explore the powerful Gemini API and walk through the best practices for function calling. You will learn how to write simple Python functions as tools, and build a ReAct agent that can choose the right tool for a task, including scraping websites or generating content. We will also get an intro into prompt engineering, a new state-of-the-art practice to transform raw data, and how to create a conversational assistant with LlamaIndex.| <img src = "https://user-images.githubusercontent.com/29454499/212105105-f61c8aab-c1ff-40af-a33f-d0ed1fccc72e.png" width=300>  | [Blog - How to get YOLOv8 Over 1000 fps with Intel GPUs?](https://medium.com/openvino-toolkit/how-to-get-yolov8-over-1000-fps-with-intel-gpus-9b0eeee879) |
-| Unlocking the power of Generative AI with Gemini <br>Campus Connect - CUEA<br>[![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1lnjeo-pk4XHp1ZBwm7DTV2mXnt_lBN23)| The hands-on session was based on Generative AI. Beginning with an introduction to Deep Learning and the foundational principles of neural networks using Keras and TensorFlow, participants gained insight into the building blocks of modern AI. I then transitioned into Large Language Models (LLMs), neural networks trained on massive datasets, unleashing capabilities for content generation. Developers were then introduced to the landscape of available foundational models, with a special focus on Gemini. Through live demonstrations, developers were guided through the practical application of Gemini, both within Google AI Studio and through APIs in VS Code and Colab. | <img src = "https://user-images.githubusercontent.com/29454499/212105105-f61c8aab-c1ff-40af-a33f-d0ed1fccc72e.png" width=300>  | [Blog - How to get YOLOv8 Over 1000 fps with Intel GPUs?](https://medium.com/openvino-toolkit/how-to-get-yolov8-over-1000-fps-with-intel-gpus-9b0eeee879) |
-| Keras 3 - A Spectrum of Workflows <br> Zindi <br>[![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1T8LA5bygK4p2L5GyR8V1xSF9tu6KxFxJ)| The workshop will explore the powerful Keras 3 API and walk through deep learning best practices, how to write a simple model, and run it with a backend of your choice, including PyTorch, TensorFlow, or JAX. We will also got an intro into Gemma, the new state-of-the-art open models and how to install it and manage the LLM with Keras 3. | <img src = "https://user-images.githubusercontent.com/29454499/212105105-f61c8aab-c1ff-40af-a33f-d0ed1fccc72e.png" width=300>  | [Blog - How to get YOLOv8 Over 1000 fps with Intel GPUs?](https://medium.com/openvino-toolkit/how-to-get-yolov8-over-1000-fps-with-intel-gpus-9b0eeee879) |
-| Working with Gemini Pro and LangChains <br> Buld With AI <br>[![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1q2TcaoXqxNz92bAQaBisomZUUk1VRqY6)| This tutorial offers an exploration of Gemini and LangChains. Our primary goal is to demystify complex concepts, help you learn how to effectively load & store documents using LangChain and build a question-answering Gemini bot that answers questions based on your documents. | <img src = "https://user-images.githubusercontent.com/29454499/212105105-f61c8aab-c1ff-40af-a33f-d0ed1fccc72e.png" width=300>  | [Blog - How to get YOLOv8 Over 1000 fps with Intel GPUs?](https://medium.com/openvino-toolkit/how-to-get-yolov8-over-1000-fps-with-intel-gpus-9b0eeee879) |
-| Creating beautiful art with Stable Diffusion <br> AMLD Africa - Nairobi  <br>[![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1aYlso-T-9DkswERrGl3omrR-n2zvczOs)<br> Lab 2  <br>[![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1Uulic4so-RHJfpFaCzbnc1cs1QymtRkv)<br> Lab 3  <br>[![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1jN-AksZQr7lBDJi5Q7Y5ah9fTY1vMv2q)| The hands-on session was based on Generative AI. Beginning with an introduction to Deep Learning and the foundational principles of neural networks using Keras and TensorFlow, participants gained insight into the building blocks of modern AI. I then transitioned into Large Language Models (LLMs), neural networks trained on massive datasets, unleashing capabilities for content generation. Developers were then introduced to the landscape of available foundational models, with a special focus on Gemini. Through live demonstrations, developers were guided through the practical application of Gemini, both within Google AI Studio and through APIs in VS Code and Colab. | <img src = "https://user-images.githubusercontent.com/29454499/212105105-f61c8aab-c1ff-40af-a33f-d0ed1fccc72e.png" width=300>  | [Blog - How to get YOLOv8 Over 1000 fps with Intel GPUs?](https://medium.com/openvino-toolkit/how-to-get-yolov8-over-1000-fps-with-intel-gpus-9b0eeee879) |
-| Unlocking the power of Generative AI with Gemini <br>Campus Connect - CUEA<br>[![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1lnjeo-pk4XHp1ZBwm7DTV2mXnt_lBN23)| The hands-on session was based on Generative AI. Beginning with an introduction to Deep Learning and the foundational principles of neural networks using Keras and TensorFlow, participants gained insight into the building blocks of modern AI. I then transitioned into Large Language Models (LLMs), neural networks trained on massive datasets, unleashing capabilities for content generation. Developers were then introduced to the landscape of available foundational models, with a special focus on Gemini. Through live demonstrations, developers were guided through the practical application of Gemini, both within Google AI Studio and through APIs in VS Code and Colab. | <img src = "https://user-images.githubusercontent.com/29454499/212105105-f61c8aab-c1ff-40af-a33f-d0ed1fccc72e.png" width=300>  | [Blog - How to get YOLOv8 Over 1000 fps with Intel GPUs?](https://medium.com/openvino-toolkit/how-to-get-yolov8-over-1000-fps-with-intel-gpus-9b0eeee879) |
+```
+┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
+│   Google ADK    │    │   MCP Server    │    │  M-Pesa API     │
+│     Agent       │◄──►│  (FastMCP)     │◄──►│  (Daraja)       │
+│                 │    │                 │    │                 │
+│ • Sequential    │    │ • Product Mgmt  │    │ • STK Push      │
+│   Workflows     │    │ • Payment Calc  │    │ • Callbacks     │
+│ • MCP Toolset   │    │ • Token Gen     │    │ • Validation    │
+└─────────────────┘    └─────────────────┘    └─────────────────┘
+```
 
+## 📁 Project Structure
 
-## Table of Contents
+```
+safaricom-mcp-server/
+├── decode/
+│   └── 01-mpesa-daraja-mcp-server-with-apigee/
+│       └── mpesa-mcp-server/
+│           ├── server.py              # FastMCP server implementation
+│           ├── products.json          # Product catalog
+│           ├── requirements.txt       # Python dependencies
+│           ├── Dockerfile            # Container configuration
+│           ├── .env.example          # Environment variables template
+│           ├── pyproject.toml        # Project configuration
+│           ├── README.md             # Server documentation
+│           ├── LOCAL_RUN.md          # Local development guide
+│           └── DEPLOY_NOTES.md       # Deployment instructions
+│
+├── adk_agent_safaricom_mcp_access/
+│   └── safaricom_mcp_access_greeter/
+│       ├── agent.py                  # Google ADK agent implementation
+│       ├── requirements.txt          # Agent dependencies
+│       ├── .env                      # Environment configuration
+│       └── Dockerfile                # Agent container config
+│
+└── README.md                         # This file
+```
 
-- [🚀 AI Trends - Notebooks](#-ai-trends---notebooks)
-- [Table of Contents](#table-of-contents)
-- [📝 Installation Guide](#-installation-guide)
-- [🚀 Getting Started](#-getting-started)
-	- [💻 First steps](#-first-steps)
-	- [⌚ Convert \& Optimize](#-convert--optimize)
-	- [🎯 Model Demos](#-model-demos)
-	- [🏃 Model Training](#-model-training)
-	- [📺 Live Demos](#-live-demos)
-- [⚙️ System Requirements](#️-system-requirements)
-- [💻 Run the Notebooks](#-run-the-notebooks)
-	- [To Launch a Single Notebook](#to-launch-a-single-notebook)
-	- [To Launch all Notebooks](#to-launch-all-notebooks)
-- [🧹 Cleaning Up](#-cleaning-up)
-- [⚠️ Troubleshooting](#️-troubleshooting)
-- [🧑‍💻 Contributors](#-contributors)
-- [❓ FAQ](#-faq)
+## 🚀 Quick Start
 
-[![-----------------------------------------------------](https://user-images.githubusercontent.com/10940214/155750931-fc094349-b6ec-4e1f-9f9a-113e67941119.jpg)]()
+### Prerequisites
 
-<div id='-installation-guide'/>
+- Python 3.13+
+- Google Cloud SDK (for deployment)
+- Docker (optional, for containerized deployment)
+- M-Pesa Daraja API credentials
 
-## 📝 Installation Guide
+### 1. Clone and Setup
+
+```bash
+git clone https://github.com/JuniorCarti/safaricom-mcp-server.git
+cd safaricom-mcp-server
+```
+
+### 2. Start MCP Server Locally
+
+```bash
+cd decode/01-mpesa-daraja-mcp-server-with-apigee/mpesa-mcp-server
+
+# Copy environment template
+cp .env.example .env
+
+# Edit .env with your M-Pesa credentials
+# MPESA_CONSUMER_KEY=your_key_here
+# MPESA_CONSUMER_SECRET=your_secret_here
+
+# Install dependencies and run
+pip install -r requirements.txt
+python server.py
+```
+
+The MCP server will start on `http://localhost:8080/mcp`
+
+### 3. Start ADK Agent
+
+```bash
+cd adk_agent_safaricom_mcp_access
+
+# Install dependencies
+pip install -r safaricom_mcp_access_greeter/requirements.txt
+
+# Run the agent
+python -m uv tool run --from google-adk adk web . --host 127.0.0.1 --port 8000 --use_local_storage
+```
+
+Access the agent at `http://127.0.0.1:8000`
+
+## 🔧 Configuration
+
+### Environment Variables
+
+#### MCP Server (.env)
+```env
+# M-Pesa API Credentials
+MPESA_CONSUMER_KEY=your_consumer_key
+MPESA_CONSUMER_SECRET=your_consumer_secret
+
+# Optional settings
+MPESA_HTTP_TIMEOUT_SECONDS=30.0
+PORT=8080
+```
+
+#### ADK Agent (.env)
+```env
+# AI Model Configuration
+MODEL=gemini-2.5-flash
+GEMINI_API_KEY=your_gemini_api_key
+
+# MCP Server Connection
+MCP_SERVER_URL=http://localhost:8080/mcp  # or your Cloud Run URL
+```
+
+## 🛠️ MCP Server Features
+
+The MCP server provides the following tools for AI agents:
+
+### Product Management
+- `list_products()` - Get all available products
+- `get_product_details(product_id)` - Get specific product information
+- `calculate_order_total(items)` - Calculate order totals with line items
+
+### Payment Processing
+- `generate_access_token_request()` - Get M-Pesa API access token
+- `validate_stk_push_payload(...)` - Validate STK Push request data
+- `initiate_stk_push(...)` - Initiate M-Pesa Express payment
+- `parse_callback_payload(payload)` - Parse payment callback data
+- `explain_error_code(code)` - Explain M-Pesa error codes
+
+### Example Usage
+
+```python
+# List all products
+products = await mcp.call_tool("list_products", {})
+
+# Calculate order total
+total = await mcp.call_tool("calculate_order_total", {
+    "items": [
+        {"product_id": "coffee", "quantity": 2},
+        {"product_id": "croissant", "quantity": 1}
+    ]
+})
+
+# Initiate payment
+payment = await mcp.call_tool("initiate_stk_push", {
+    "phone_number": "254712345678",
+    "amount": 150
+})
+```
+
+## 🤖 ADK Agent Architecture
+
+The Google ADK agent uses a **SequentialAgent** architecture with three main components:
+
+### 1. Root Agent (`safaricom_mcp_access_greeter`)
+- **Purpose**: Main entry point and user interaction
+- **Instructions**: Greets users and manages conversation flow
+- **Tools**: `add_prompt_to_state()` for state management
+
+### 2. Checkout Planner (`checkout_planner`)
+- **Purpose**: Analyzes user requests and determines required actions
+- **Model**: Gemini 2.5 Flash
+- **Tools**: Full MCP toolset for product and payment operations
+- **Output**: `checkout_data` for the response formatter
+
+### 3. Response Formatter (`response_formatter`)
+- **Purpose**: Formats operational responses for merchants
+- **Model**: Gemini 2.5 Flash
+- **Input**: `checkout_data` from planner
+- **Output**: User-friendly responses with actionable information
+
+### Agent Workflow
+
+```
+User Input → Root Agent → Checkout Planner → MCP Tools → Response Formatter → User
+```
+
+## 🐳 Docker Deployment
+
+### Build and Run MCP Server
+
+```bash
+cd decode/01-mpesa-daraja-mcp-server-with-apigee/mpesa-mcp-server
+
+# Build image
+docker build -t mpesa-mcp-server .
+
+# Run locally
+docker run -p 8080:8080 --env-file .env mpesa-mcp-server
+```
+
+### Build and Run ADK Agent
+
+```bash
+cd adk_agent_safaricom_mcp_access
+
+# Build image
+docker build -t safaricom-adk-agent .
+
+# Run locally
+docker run -p 8000:8000 --env-file safaricom_mcp_access_greeter/.env safaricom-adk-agent
+```
+
+## ☁️ Cloud Run Deployment
+
+### Deploy MCP Server to Cloud Run
+
+```bash
+# Build and push to Artifact Registry
+gcloud builds submit --tag europe-west1-docker.pkg.dev/YOUR_PROJECT/mpesa-mcp-server
+
+# Deploy to Cloud Run
+gcloud run deploy mpesa-mcp-server \
+  --image europe-west1-docker.pkg.dev/YOUR_PROJECT/mpesa-mcp-server \
+  --platform managed \
+  --region europe-west1 \
+  --allow-unauthenticated \
+  --set-env-vars "MPESA_CONSUMER_KEY=YOUR_KEY,MPESA_CONSUMER_SECRET=YOUR_SECRET"
+```
+
+### Update Agent Configuration
+
+After deployment, update the ADK agent `.env` file:
+
+```env
+MCP_SERVER_URL=https://YOUR_CLOUD_RUN_URL/mcp
+```
+
+## 🧪 Testing the System
+
+### Test Prompts for ADK Agent
+
+1. **Basic Interaction**:
+   - `hello` or `hi there`
+
+2. **Product Queries**:
+   - `List all products`
+   - `Show me details for coffee`
+   - `Calculate total for 2 coffees and 1 croissant`
+
+3. **Payment Operations**:
+   - `Prepare a payment for 150 KES to 254712345678`
+   - `Validate this STK push request: {...}`
+   - `What does error code 1032 mean?`
+
+### API Testing
+
+Test the MCP server directly:
+
+```bash
+# Health check (will show protocol error - this is expected)
+curl http://localhost:8080/mcp
+
+# The server uses Server-Sent Events (SSE) protocol
+# Testing should be done through the ADK agent interface
+```
+
+## 🔒 Security Considerations
+
+### API Keys
+- Store M-Pesa credentials securely
+- Use environment variables, never commit to version control
+- Rotate credentials regularly
+
+### Authentication
+- Cloud Run services can be secured with IAM
+- Consider implementing API key authentication for production
+- Use HTTPS for all communications
+
+### Data Handling
+- Validate all input data
+- Sanitize callback payloads
+- Log sensitive operations appropriately
+
+## 🐛 Troubleshooting
+
+### Common Issues
+
+#### MCP Session Creation Failed
+**Error**: `Failed to create MCP session: unhandled errors in a TaskGroup`
+
+**Solutions**:
+1. Ensure MCP server is running locally or accessible
+2. Check `MCP_SERVER_URL` in agent `.env` file
+3. Verify network connectivity
+4. For Cloud Run: ensure proper authentication
+
+#### Port Already in Use
+**Error**: `[Errno 10048] error while attempting to bind on address`
+
+**Solution**:
+```bash
+# Find process using port
+netstat -ano | findstr :8000
+
+# Kill the process
+taskkill /PID <PID> /F
+```
+
+#### M-Pesa API Errors
+- **1032**: Request cancelled by user
+- **1037**: Internal timeout
+- **2001**: Wrong access token
+
+Check the `explain_error_code()` MCP tool for detailed explanations.
+
+### Debug Mode
+
+Enable debug logging:
+
+```python
+import logging
+logging.basicConfig(level=logging.DEBUG)
+```
+
+## 📚 API Reference
+
+### MCP Server Endpoints
+
+- `POST /mcp` - MCP protocol endpoint (SSE)
+- Server runs on port 8080 by default
+
+### ADK Agent Interface
+
+- `GET /` - Web UI for agent interaction
+- `POST /run` - Direct API access to agent
+- Server runs on port 8000 by default
+
+## 🤝 Contributing
+
+1. Fork the repository
+2. Create a feature branch
+3. Make your changes
+4. Add tests if applicable
+5. Submit a pull request
+
+## 📄 License
+
+This project is part of the DECODE Builders Labs and follows the lab guidelines.
+
+## 🙏 Acknowledgments
+
+- **DECODE Builders Program** for the comprehensive labs
+- **Safaricom Developer Portal** for M-Pesa Daraja API
+- **Google AI Development Kit** for agent framework
+- **Model Context Protocol** for standardized AI tool integration
+
+## 📞 Support
+
+For issues related to:
+- **M-Pesa API**: Check [Safaricom Developer Documentation](https://developer.safaricom.co.ke/)
+- **Google ADK**: Visit [Google AI Studio](https://aistudio.google.com/)
+- **MCP Protocol**: See [Model Context Protocol](https://modelcontextprotocol.io/)
+
+---
+
+**Built with ❤️ for the DECODE Builders Program**
 
 OpenVINO Notebooks require Python and Git. To get started, select the guide for your operating system or environment:
 
