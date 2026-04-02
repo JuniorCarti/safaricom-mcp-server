@@ -1,0 +1,14 @@
+[project]
+name = "mpesa-mcp-server"
+version = "0.1.0"
+description = "Safaricom M-PESA Express MCP server with product catalog tools"
+requires-python = ">=3.13"
+dependencies = [
+    "fastmcp==2.12.4",
+    "httpx==0.28.1",
+    "pydantic>=2.0.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

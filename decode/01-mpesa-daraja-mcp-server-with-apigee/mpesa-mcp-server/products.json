@@ -1,0 +1,26 @@
+[
+  {
+    "id": "conf-pass-001",
+    "name": "Build With AI Conference Pass",
+    "category": "event",
+    "price_kes": 5,
+    "currency": "KES",
+    "inventory_status": "in_stock"
+  },
+  {
+    "id": "tee-001",
+    "name": "DECODE Workshop T-Shirt",
+    "category": "merch",
+    "price_kes": 3,
+    "currency": "KES",
+    "inventory_status": "in_stock"
+  },
+  {
+    "id": "coffee-001",
+    "name": "Single Origin Coffee Beans",
+    "category": "retail",
+    "price_kes": 1,
+    "currency": "KES",
+    "inventory_status": "low_stock"
+  }
+]
